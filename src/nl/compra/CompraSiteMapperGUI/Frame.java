@@ -104,7 +104,7 @@ public class Frame extends JFrame {
 		}
 		public void actionPerformed(ActionEvent e) {
 			
-			PrintStream ps = new PrintStream (new CustomOutputStream(textAreaLog)); // werkt niet :(
+			PrintStream ps = new PrintStream (new CustomOutputStream(textAreaLog));
 			System.setOut(ps);
 			System.setErr(ps);
 			
